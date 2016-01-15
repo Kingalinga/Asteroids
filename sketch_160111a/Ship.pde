@@ -6,7 +6,7 @@ class Ship {
   Ship() { 
    
 
-    tloc = new PVector(tx, ty);
+    tloc = new PVector(mouseX, mouseY);
     vel = PVector.random2D();
   }
   void display(){
